@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Party Time</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Homepage</a>
+      <a href="#team" class="w3-bar-item w3-button"><i clas="fa fa-user"></i>Services</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i clas="fa fa-usd"></i> Packages</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i clas="fa fa-envelope"></i> Contact</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Homepage</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">Services</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">Homepage</h3>
+    <div class="w3-row-padding w3-center" style="margin-top:64px">
+    
+<h3>Welcome to Party Time – Your Premier Event Organizers!</h3>
+
+Get ready to experience the ultimate in event perfection with Party Time. It's always party time when you choose us to orchestrate your special moments. As your dedicated event organizers, we specialize in turning ordinary occasions into extraordinary celebrations. Whether it's a corporate gathering, a milestone birthday, or a dreamy wedding,
+ we infuse every event with creativity, precision, and a touch of magic. Our expert team meticulously plans and executes each detail to ensure a seamless and unforgettable experience. Let us transform your v
+ision into a joyous reality. Welcome to a world where every moment is a reason to celebrate – welcome to Party Time.</div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">Our Services</h3>
+  <p class="w3-center w3-large"></p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Seven-Creative-Event-Themes-To-Transform-Your-Party.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Themed Events</h3>
+          <p class="w3-opacity">$100 - $50,000 Depending on the event.</p>
+          <p>Immerse in themed events – from magical birthdays and corporate creativity to love-filled weddings,
+             spooky Halloweens, and joyous children's carnivals, we craft unforgettable experiences for every occasion.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i clas="fa fa-envelope"></i> Purchase </button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="download.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Marquee Parties</h3>
+          <p class="w3-opacity">$1,000 - $20,000 Depending on the size of the Party</p>
+          <p>
+            Elevate your event with a marquee party – a stylish and versatile space tailored to your celebration,
+             adding a touch of elegance and personalized flair.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i clas="fa fa-envelope"></i> Purchase</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Loy-Krathong-and-Yee-Peng-Lantern-Festivals-Chiang-Mai-Thailand.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Special celebrations
+          </h3>
+          <p class="w3-opacity">$500 - $20,000 depending on the scale</p>
+          <p>Celebrate life's moments uniquely with us – birthdays, anniversaries, and milestones become unforgettable memories.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i clas="fa fa-envelope"></i> Purchase</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Apple-celebrates-entertainment-hero.jpg.og.jpg" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Entertainment</h3>
+          <p class="w3-opacity">$100 - $2,000 depending on the quality or type</p>
+          <p>
+            Transform your event with captivating entertainment—live music, engaging acts, and unforgettable moments tailored just for you.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i clas="fa fa-envelope"></i> Purchase</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Collaborative Partners
+    
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">55+</span>
+    <br>Projects Successfully Executed 
+    
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">89+</span>
+    <br>Delighted Clients
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Meetings Orchestrated
+  </div>
+</div>
+
+<!-- Work Section -->
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>Packages</h3>
+  <p class="w3-large">Choose a pricing plan that fits your needs.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Bronze</li>
+        <li class="w3-padding-16"><b></b> Seamless Coordination
+        </li>
+        <li class="w3-padding-16"><b></b> Basic Decor
+        </li>
+        <li class="w3-padding-16"><b></b> Venue Setup
+        </li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$100 </h2>
+          <span class="w3-opacity">per hour</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Gold</li>
+        <li class="w3-padding-16"><b></b> Premium Planning
+        </li>
+        <li class="w3-padding-16"><b></b> Bespoke Decor
+        </li>
+        <li class="w3-padding-16"><b></b> Top-tier Entertainment
+        </li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$300</h2>
+          <span class="w3-opacity">per hour</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Silver</li>
+        <li class="w3-padding-16"><b></b> Personalized Decor Options
+        </li>
+        <li class="w3-padding-16"><b></b> Enhanced Planning Services
+        </li>
+        <li class="w3-padding-16"><b></b> Timeless Ambiance
+        </li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$130</h2>
+          <span class="w3-opacity">per hour</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Manama, BH</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +973 3874 7341</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: Partytime@gmail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    <!-- Image of location/map -->
+    <img sc="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
