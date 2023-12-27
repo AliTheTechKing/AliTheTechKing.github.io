@@ -90,7 +90,7 @@ ision into a joyous reality. Welcome to a world where every moment is a reason t
           <p class="w3-opacity">$100 - $50,000 Depending on the event.</p>
           <p>Immerse in themed events – from magical birthdays and corporate creativity to love-filled weddings,
              spooky Halloweens, and joyous children's carnivals, we craft unforgettable experiences for every occasion.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i clas="fa fa-envelope"></i> Purchase </button></p>
+          <p><button class="w3-button w3-light-grey w3-block"><i clas="fa fa-envelope"></i><a href="#contact">Choose Service</a></button></p>
         </div>
       </div>
     </div>
@@ -103,7 +103,7 @@ ision into a joyous reality. Welcome to a world where every moment is a reason t
           <p>
             Elevate your event with a marquee party – a stylish and versatile space tailored to your celebration,
              adding a touch of elegance and personalized flair.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i clas="fa fa-envelope"></i> Purchase</button></p>
+          <p><button class="w3-button w3-light-grey w3-block"><i clas="fa fa-envelope"></i><a href="#contact">Choose Service</a></button></p>
         </div>
       </div>
     </div>
@@ -115,7 +115,7 @@ ision into a joyous reality. Welcome to a world where every moment is a reason t
           </h3>
           <p class="w3-opacity">$500 - $20,000 depending on the scale</p>
           <p>Celebrate life's moments uniquely with us – birthdays, anniversaries, and milestones become unforgettable memories.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i clas="fa fa-envelope"></i> Purchase</button></p>
+          <p><button class="w3-button w3-light-grey w3-block"><i clas="fa fa-envelope"></i><a href="#contact">Choose Service</a></button></p>
         </div>
       </div>
     </div>
@@ -127,7 +127,7 @@ ision into a joyous reality. Welcome to a world where every moment is a reason t
           <p class="w3-opacity">$100 - $2,000 depending on the quality or type</p>
           <p>
             Transform your event with captivating entertainment—live music, engaging acts, and unforgettable moments tailored just for you.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i clas="fa fa-envelope"></i> Purchase</button></p>
+          <p><button class="w3-button w3-light-grey w3-block"><i clas="fa fa-envelope"></i><a href="#contact">Choose Service</a></button></p>
         </div>
       </div>
     </div>
@@ -188,7 +188,7 @@ ision into a joyous reality. Welcome to a world where every moment is a reason t
           <span class="w3-opacity">per hour</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+          <button class="w3-button w3-black w3-padding-large"><a href="#contact">Choose package</a></button>
         </li>
       </ul>
     </div>
@@ -206,7 +206,7 @@ ision into a joyous reality. Welcome to a world where every moment is a reason t
           <span class="w3-opacity">per hour</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+          <button class="w3-button w3-black w3-padding-large"><a href="#contact">Choose package</a></button>
         </li>
       </ul>
     </div>
@@ -224,7 +224,21 @@ ision into a joyous reality. Welcome to a world where every moment is a reason t
           <span class="w3-opacity">per hour</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+          <button class="w3-button w3-black w3-padding-large"><a href="#contact">Choose package</a></button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Custom</li>
+        At party time, we understand that each celebration is unique, deserving a touch of individuality and charm. That's why we're thrilled to present 
+        our exclusive Signature Celebration Experience Package—a bespoke offering designed to make your event truly extraordinary.
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"></h2>
+          <span class="w3-opacity">price will vary</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Contact us</button>
         </li>
       </ul>
     </div>
@@ -233,7 +247,7 @@ ision into a joyous reality. Welcome to a world where every moment is a reason t
 
 <!-- Contact Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
-  <h3 class="w3-center">CONTACT</h3>
+  <h3 class="w3-center">Contact</h3>
   <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
   <div style="margin-top:48px">
     <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Manama, BH</p>
@@ -243,8 +257,22 @@ ision into a joyous reality. Welcome to a world where every moment is a reason t
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <select class="w3-input w3-border" placeholder="service" id="cars" name="cars" required>
+          <option aria-placeholder="service">Services</option>
+          <option value="Themed events">Themed events</option>
+          <option value="Marquee parties">Marquee parties</option>
+          <option value="Special celebrations">Special celebrations</option>
+          <option value="Entertainment">Entertainment</option>
+        </select></p>
+        <select class="w3-input w3-border" placeholder="service" id="cars" name="cars" required>
+          <option aria-placeholder="Packages">Packages</option>
+          <option value="Bronze">Bronze</option>
+          <option value="Silver">Silver</option>
+          <option value="Gold">Gold</option>
+        </select></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Extra details" required name="Extra details"></p>
+      
       <p>
         <button class="w3-button w3-black" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
